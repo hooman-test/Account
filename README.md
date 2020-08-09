@@ -18,3 +18,10 @@ After running the application there are two endpoints available in this project:
 * GET `localhost:8080/account/transaction` it will return all the transactions in the system. To fetch the transactions 
 for an account simply add `?accountId={id}` to the end of the URL and replace `{id}` with the account id for example: 
 `localhost:8080/account/transaction?accountId=1`
+
+### Extensions
+The project has many ways to extend to be more useful for example:
+* Adding session management for user
+* Adding filter to list of accounts and transactions
+* Adding AOP logging 
+* Adding RDBMS/NoSQL database instead of in-memory database
